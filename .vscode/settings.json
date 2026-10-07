@@ -1,0 +1,6 @@
+{
+  "editor.inlineSuggest.enabled": false,
+  "terminal.integrated.suggest.inlineSuggestion": "off",
+  "javascript.suggest.enabled": false,
+  "typescript.suggest.enabled": false
+}
