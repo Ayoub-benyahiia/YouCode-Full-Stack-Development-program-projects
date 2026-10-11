@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: brown;
+}
+
+header {
+    background-color: lab(100% 0.01 -0.01);
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navofheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "inter";
+    font-size: 20px;
+
+}
+
+.navofheader a {
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+}
+.navofheader a h1{
+    font-size: 30px;
+    font-style: bold;
+}
+.navofheader button {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background-color: blue;
+}
+.navofheader button a{
+    color: aliceblue;
+}
