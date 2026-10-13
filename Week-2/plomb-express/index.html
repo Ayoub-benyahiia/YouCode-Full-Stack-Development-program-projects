@@ -8,6 +8,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
     <title>plompexpress</title>
 </head>
 
@@ -32,25 +35,79 @@
 
             <div class="presentation">
                 <div class="heropromise">
-                    <span class="span">Votre artisan à Lyon et alentours</span>
+                    <div class="iconsofhero">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="span">Votre artisan à Lyon et alentours</span>
+                    </div>
                     <h1>Un plombier de <br> confiance près de <br> chez vous</h1>
                     <p>Chez Plomb’Express, nous prenons soin de votre confort. Dépannage,<br> installation ou fuite :
                         nos
                         artisans vous accompagnent avec réactivité,<br> transparence et un travail soigné.</p>
                     <div>
-                        <button class="button1">Demander un devis</button>
-                        <button class="button2">Nos services</button>
+                        <button class="button1"><a href="#"> Demander un devis → </a></button>
+                        <button class="button2"><a href="#"> Nos services </a></button>
                     </div>
                 </div>
                 <div class="heroimage"><img src="assets/images/hero.png" </div>
                 </div>
+        </section>
+        <div class="heroengagements">
+            <div class="icons">
+                <i class="fa-regular fa-clock"></i>
+                <p>Intervention rapide 7j/7</p>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-shield-halved"></i>
+                <p>Travail garanti</p>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-award"></i>
+                <p>Professionnels qualifiés</p>
+            </div>
+        </div>
+        <!-- section 2 -->
+        <section class="services">
+            <div class="part1service">
+                <p>NOS SAVOIR-FAIRE</p>
+                <h2>Des solutions pour tous vos besoins</h2>
+                <p>De l’urgence au projet, le bon geste pour chaque situation.</p>
+            </div>
 
-                <!-- <div class="heroengagements">
-                <div><p>Intervention rapide 7j/7</p></div>
-                <div><p>Travail garanti</p></div>
-                <div><p>Professionnels qualifiés</p></div>
-            </div> -->
+            <div class="part2service">
+                <article class="card">
+                    <img src="assets/images/article1.png" alt=" service of ">
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fa-solid fa-wrench"></i></div>
+                        <h3>Dépannage plomberie</h3>
+                        <p>Canalisation bouchée, chauffe-eau en panne ou robinet défectueux : nous intervenons vite pour
+                            rétablir votre confort.</p>
+                    </div>
+                </article>
 
+                <article class="card">
+                    <img src="assets/images/article-2.png" alt="installation">
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fa-solid fa-bath"></i></div>
+                        <h3>Installation sanitaire</h3>
+                        <p>Lavabo, douche, WC ou robinetterie : une installation sur mesure, des raccordements fiables
+                            et des finitions soignées.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="assets/images/article3.png" alt="reparation des fuites">
+                    <div class="card-body">
+                        <div class="card-icon"><i class="fa-solid fa-droplet"></i></div>
+                        <h3>Réparation de fuites</h3>
+                        <p>Nous localisons la fuite et réparons vos canalisations durablement, pour protéger votre
+                            logement et éviter le gaspillage.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="part3service">
+                <button class="service-button"><a href="#">Voir tous nos services</a></button>
+            </div>
         </section>
     </main>
 </body>
