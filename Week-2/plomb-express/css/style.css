@@ -43,13 +43,91 @@
 }
 
 .headerbutton a {
-    font-family: Inter;
+    font-family: "Inter" sans-serif;
     font-style: Bold;
     font-size: 16px;
     color: #FFFFFF;
     text-decoration: none;
 }
-.headerbutton a:hover{
+
+.headerbutton a:hover {
     color: black;
     text-decoration: underline;
+}
+
+/*
+  now hero part
+*/
+
+.heropart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+    padding-right: 104px;
+    padding-left: 104px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid black;
+    width: 100%;
+    height: 419px;
+    gap: 24px;
+    
+}
+
+.heropromise {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.heroimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    /* border-radius: 24px; */
+    /* border: 1px solid black; */
+}
+
+.heroengagements {
+    display: flex;
+    border: 1px solid black;
+
+}
+.heropromise button{
+    font-family: "Inter", sans-serif;
+    font-style: Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.button1{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    gap: 12px;
+    border-radius: 10px;
+    background-color: #FF6418;
+}
+.button2{
+    font
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    gap: 12px;
+    border-radius: 10px;
+    background-color: white;
 }
