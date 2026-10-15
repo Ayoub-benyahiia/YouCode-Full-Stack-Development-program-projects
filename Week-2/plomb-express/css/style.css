@@ -197,7 +197,7 @@
 }
 
 .part2service article img {
-    width: 60px; /* awla pourcentage matalan 100% */
+    width: 60px; 
     height: auto;
 }
 
@@ -215,4 +215,89 @@
     padding-top: 10px;
     gap: 12px;
     background-color: white;
+}
+/* trust sections */
+.trustsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border: 1px solid royalblue;
+    background-color: #F3F7FA;
+}
+
+
+
+.trustimage{
+    display: flex;
+    width: 560px;
+    height: 340px;
+}
+.trustdroit{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    /* border: 1px solid red; */
+}
+
+.trustcard2{
+    display: flex;
+    gap: 20px;
+}
+.trustcard3{
+    display: flex;
+    gap: 20px;
+}
+
+/* Footer section */
+.footter{
+    display: flex;
+    background-color: #102A43;
+}
+.footersection1{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* page 2 services */
+.nos-service{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    border: 1px solid blue;
+}
+
+.recherche-service {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+}
+
+.recherche-service-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.recherche-service-text h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.recherche-service-para p {
+    color: #555;
+    font-size: 16px;
+}
+
+.recherchebutton {
+    background-color: #0077b6;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.recherchebutton a {
+    color: white;
+    text-decoration: none;
 }
